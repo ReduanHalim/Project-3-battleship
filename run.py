@@ -38,9 +38,11 @@ for turn in range (4):
             print("You missed my ship!")
             board[guess_row][guess_col] == "X"
 
-if turn == 3:
+if turn == 5:
     print("Game over")
-                    
+turn =+ 1
+print_board(board)
+
 
 
                     
